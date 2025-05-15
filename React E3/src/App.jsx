@@ -20,7 +20,16 @@ function App({shoedata}) {
            })
       } */}
 
-    {shoedata.map((data) => <Product title={data.title} key={data.id} prices={data.prices}/>
+    {shoedata.map((data) => <Product 
+    id={data.id}
+    title={data.title}
+    description={data.description}
+    category={data.category}
+    price={data.price}
+    discountPercentage={data.discountPercentage}
+    rating={data.rating}
+    stock={data.stock}
+    />
     )}
     </div>
   )
