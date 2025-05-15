@@ -8,4 +8,5 @@ function Product({title , prices}) { // Dyanic data ....
     </>
   )
  }
+
  export default Product;
